@@ -1,0 +1,28 @@
+This dataset contains BIXI bike stations and station sizes in the City of Toronto.
+
+This data is collected in partnership with the Public Bicycle System Company (PBSC) and the City of Toronto. It is used for (a) to track the location of BIXI bike stations; and (b) bike and docking availability in each bike station. It is used by PBSC for operational purposes.
+
+Attributes:
+lastUpdate - Last updated timestamp	POSIX Timestamp as the number of milliseconds elapsed since midnight Coordinated Universal Time (UTC) of January 1, 1970. e.g. 1343750388919 represents Tuesday, July 31, 2012 11:59:48:919 AM at Toronto
+version	- XML version number	e.g. 2
+id- Unique BIXI bike station identifier	e.g. 56
+name - BIXI bike station name	e.g. Sherbourne / Carlton (Allan Gardens)
+terminalName - BIXI bike station terminal name	e.g. C7014
+lastCommWithServer - Last communication timestamp with BIXI hub server	
+lat	- Latitude	
+long - Longitude	
+installed - BIXI bike station installed (TRUE/FALSE)
+			TRUE – if station has been installed
+			FALSE - if station has been mark but not installed
+locked - BIXI bike station locked (TRUE/FALSE)
+			TRUE – if station is locked 
+			FALSE – if station is not locked 
+installDate	- BIXI bike station installation timestamp	
+removalDate	- BIXI bike station removal timestamp	
+temporary - Temporary BIXI bike station? (TRUE/FALSE)	
+public - Public use of the BIXI bike station (TRUE/FALSE)	
+			TRUE – if station is open for public use
+			FALSE – if station is unavailable for public use
+nbBikes	- Number of BIXI bike is available	e.g. 3
+nbEmptyDocks - Number of BIX bike empty dock is available	e.g. 14
+latestUpdateTime - Latest update timestamp	
